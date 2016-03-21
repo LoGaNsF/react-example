@@ -1,0 +1,32 @@
+{
+  "name": "react-example",
+  "version": "1.0.0",
+  "description": "A usage example of ReactJS",
+  "main": "app.jsx",
+  "scripts": {
+    "start": "npm install && gulp build"
+  },
+  "keywords": [
+    "javascript",
+    "react"
+  ],
+  "author": "@LoGaNsF",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browser-sync": "^2.11.1",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
