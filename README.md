@@ -1,1 +1,2 @@
-# react-example
+# ReactJS Example
+A usage example of ReactJS
