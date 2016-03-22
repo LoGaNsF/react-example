@@ -6,4 +6,4 @@ var Counter = require('./components/counter');
 
 ReactDOM.render(<Hello name="LoGaNsF" />, document.getElementById('hello'));
 ReactDOM.render(<Clock />, document.getElementById('clock'));
-ReactDOM.render(<Counter />, document.getElementById('counter'));
+ReactDOM.render(<Counter initial={10} />, document.getElementById('counter'));
