@@ -4,6 +4,16 @@ var Hello = require('./components/hello');
 var Clock = require('./components/clock');
 var Counter = require('./components/counter');
 
-ReactDOM.render(<Hello name="LoGaNsF" />, document.getElementById('hello'));
-ReactDOM.render(<Clock />, document.getElementById('clock'));
-ReactDOM.render(<Counter initial={10} />, document.getElementById('counter'));
+var App = React.createClass({
+	render: function () {
+		return (
+			<div>
+				<Hello name="LoGaNsF" />
+				<Clock />
+				<Counter initial={10} />
+			</div>
+		);
+	}
+});
+
+ReactDOM.render(<App/>, document.getElementById('container'));
