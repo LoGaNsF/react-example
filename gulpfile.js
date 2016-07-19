@@ -39,7 +39,7 @@ gulp.task('watch', function () {
         })
     );
     
-    bundle(bundler)
+    bundle(bundler);
 
     bundler.on('update', function () {
         bundle(bundler)
