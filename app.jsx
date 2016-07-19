@@ -1,3 +1,5 @@
+'use strict';
+
 var React = require('react');
 var ReactDOM = require('react-dom');
 var Hello = require('./components/hello');
@@ -8,9 +10,9 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
-				<Hello name="LoGaNsF" />
-				<Clock />
-				<Counter initial={10} />
+				<Hello name="LoGaNsF"/>
+				<Clock/>
+				<Counter initial={10}/>
 			</div>
 		);
 	}
