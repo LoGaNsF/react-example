@@ -10,9 +10,9 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
-				<Hello name="LoGaNsF"/>
-				<Clock/>
-				<Counter initial={10}/>
+				<Hello name="LoGaNsF" />
+				<Clock />
+				<Counter initial={10} />
 			</div>
 		);
 	}
